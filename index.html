@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <div class="container">
   <header>
     <div class="logo">&lt;ST/&gt;</div>
     <nav>
@@ -183,7 +183,7 @@
     </div>
       
     <div class="projects-cta">
-      <a href="https://github.com/Shreshth-1"><button>View More on GitHub</button></a>
+      <a href="https://github.com/shreshth-tyagi"><button>View More on GitHub</button></a>
     </div>
   </section>
 
@@ -204,7 +204,10 @@
         Whether you have a project in mind, a job opportunity,<br>
         or just want to say hello, I’d love to hear from you!<br>(BTW do you watch Family Guy?)</p>
       </div>
-      <form class="contact-form">
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="2754aac3-32d2-4511-aa6b-36c3bf0b01a6">
+
         <input type="text" name="name"    placeholder="Your Name"  required>
         <input type="email" name="email"  placeholder="Your Email" required>
         <input type="text" name="subject" placeholder="Subject"    required>
@@ -217,7 +220,7 @@
   <footer>
    Built with love and FOMO ❤️
   </footer>
-
+  </div>
   <script src="script.js"></script>
   
 </body>
